@@ -37,6 +37,8 @@ I build small real robots from CAD, PCB, firmware, control software, vision, and
 - **Robotics control:** ROS 1/2, MoveIt, Delta kinematics, G-code motion pipeline, bus-servo control, serial protocol tools, gamepad teleoperation, safety preflight checks.
 - **Machine vision:** OpenCV, YOLO, AprilTag, camera calibration, dual-camera hand-eye geometry, IMU fusion experiments, TensorRT/Jetson deployment.
 - **Embedded systems:** C/C++, Python, Linux, Arch Linux, Raspberry Pi 4B, ESP32/ESP32-S3, ESP8266, STM32 G/H series, STM32MP257, sensor and actuator integration.
+- **Robot platforms:** Delta arm, UAV-related development, mecanum-wheel chassis, quadruped/robot-dog experiments, mobile robot bring-up.
+- **Controller and kits:** PS5 DualSense adaptive trigger experiments, Waveshare kit development, gamepad input mapping, hardware interaction tools.
 - **Mechanical design:** SolidWorks, Fusion, CAD iteration, basic simulation, Bambu Lab A1/P1 series 3D printing, OrcaSlicer, Bambu Studio, post-processing, fitting, metalworking.
 - **PCB and hardware:** JLCEDA, Altium Designer, schematic/PCB drawing, wiring, bring-up, debugging, and practical lab tooling.
 - **Apps and web:** Android development, Rokid glasses development experience, personal blog, full-stack IoT demos such as temperature/humidity monitoring.
@@ -59,6 +61,9 @@ I build small real robots from CAD, PCB, firmware, control software, vision, and
   <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32">
   <img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32">
   <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat-square&logo=raspberry-pi&logoColor=white" alt="Raspberry Pi">
+  <img src="https://img.shields.io/badge/STM32MP257-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32MP257">
+  <img src="https://img.shields.io/badge/Waveshare-1677FF?style=flat-square" alt="Waveshare">
+  <img src="https://img.shields.io/badge/PS5%20DualSense-003791?style=flat-square&logo=playstation&logoColor=white" alt="PS5 DualSense">
   <img src="https://img.shields.io/badge/SolidWorks-D22128?style=flat-square" alt="SolidWorks">
   <img src="https://img.shields.io/badge/Fusion-ED7A00?style=flat-square&logo=autodesk&logoColor=white" alt="Fusion">
   <img src="https://img.shields.io/badge/JLCEDA-1E88E5?style=flat-square" alt="JLCEDA">
@@ -71,18 +76,46 @@ I build small real robots from CAD, PCB, firmware, control software, vision, and
 | Area | Projects and outputs |
 | --- | --- |
 | **Robot arm / 机械臂** | `78arm`, Delta IK, real-machine controller, bus-servo mapping, G-code to servo commands |
+| **Mobile robots / 移动机器人** | Mecanum-wheel car, quadruped/robot-dog experiments, UAV platform development |
 | **Vision / 视觉** | AprilTag pose estimation, YOLO detection, fisheye calibration, Jetson/TensorRT export |
 | **Sensing / 传感器** | WT61C IMU tools, JSON snapshot pipelines, camera and IMU experiment chain |
-| **Tooling / 工具链** | LX225 config tool, serial checks, workspace samplers, read-only preflight tools |
+| **Tooling / 工具链** | LX225 config tool, serial checks, workspace samplers, read-only preflight tools, PS5 adaptive-trigger experiments |
 | **Manufacturing / 制造** | SolidWorks/Fusion design, Bambu Lab printing, slicing, post-processing, metalworking |
-| **Apps / 应用** | Android experiments, Rokid glasses development, personal blog and IoT web demos |
+| **Apps / 应用** | Android experiments, Rokid glasses development, personal blog, IoT temperature/humidity web demos |
+
+## Public Repositories / 公开仓库
+
+<p align="center">
+  <a href="https://github.com/NHK-DOT/delta_on_quadrotorUAV">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NHK-DOT&repo=delta_on_quadrotorUAV&theme=transparent&hide_border=true" alt="delta_on_quadrotorUAV">
+  </a>
+  <a href="https://github.com/NHK-DOT/Go-based-web-server-personal-blog">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NHK-DOT&repo=Go-based-web-server-personal-blog&theme=transparent&hide_border=true" alt="Go-based web server personal blog">
+  </a>
+</p>
+
+- [`delta_on_quadrotorUAV`](https://github.com/NHK-DOT/delta_on_quadrotorUAV): current main robotics repository, centered on the UAV-mounted Delta arm and its vision/control toolchain.
+- [`Go-based-web-server-personal-blog`](https://github.com/NHK-DOT/Go-based-web-server-personal-blog): personal blog / web server experiment, connected with my long-term project documentation site.
 
 ## Open-Source Roadmap / 开源计划
 
 - Split reusable tools from `78arm` into smaller public repositories.
 - Make servo mapping, AprilTag vision, calibration, and workspace-sampling tools easier to reuse.
+- Publish small, reusable repositories for PS5 DualSense adaptive triggers, Waveshare kits, mecanum-wheel chassis control, robot-dog experiments, UAV tooling, Android/Rokid demos, and embedded board bring-up notes.
 - Keep project READMEs practical: hardware path, wiring assumptions, safety notes, and runnable commands.
 - Document real-machine failures as clearly as successful demos.
+
+## Backlog to Open Source / 待整理开源方向
+
+These directions are real learning and development tracks, but the repositories still need cleanup before public release:
+
+- **PS5 DualSense adaptive triggers:** trigger force curves, controller I/O, interaction experiments.
+- **Waveshare kits:** board bring-up, display/sensor modules, embedded Linux and microcontroller examples.
+- **Mecanum-wheel car:** chassis kinematics, low-level motor control, ROS navigation experiments.
+- **Robot dog / quadruped:** legged robot structure, servo/control experiments, gait notes.
+- **UAV platform:** onboard compute, vision payloads, lightweight manipulator integration.
+- **Embedded boards:** ESP32/ESP32-S3, ESP8266, STM32 G/H series, STM32MP257, Raspberry Pi 4B.
+- **Android and Rokid glasses:** mobile control UI, wearable interaction prototypes, hardware input testing.
 
 ## GitHub Signals / GitHub 公开贡献概览
 
