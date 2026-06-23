@@ -55,6 +55,7 @@ I build small real robots from CAD, PCB, firmware, control software, vision, and
 ![YOLO](https://img.shields.io/badge/YOLO-111111?style=for-the-badge)
 ![AprilTag](https://img.shields.io/badge/AprilTag-2F80ED?style=for-the-badge)
 ![Server Ops](https://img.shields.io/badge/Server%20Ops-4B5563?style=for-the-badge&logo=linux&logoColor=white)
+![Android](https://img.shields.io/badge/Kotlin%20Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 
 **Embedded Boards and Controllers / 板卡与控制器**
 
@@ -77,21 +78,15 @@ I build small real robots from CAD, PCB, firmware, control software, vision, and
 ![Bambu Lab](https://img.shields.io/badge/Bambu%20Lab-00AE42?style=for-the-badge)
 ![Bambu Studio](https://img.shields.io/badge/Bambu%20Studio-00AE42?style=for-the-badge)
 ![OrcaSlicer](https://img.shields.io/badge/OrcaSlicer-2F80ED?style=for-the-badge)
-![Post Processing](https://img.shields.io/badge/Post%20Processing-6B7280?style=for-the-badge)
-![Metalworking](https://img.shields.io/badge/Metalworking-374151?style=for-the-badge)
+![铨洲](https://img.shields.io/badge/%E9%93%A8%E6%B4%B2-111827?style=for-the-badge)
 
-**Apps, Web, and Wearables / 应用、网站与可穿戴**
+**Wearables / 可穿戴**
 
-![Android](https://img.shields.io/badge/Kotlin%20Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Rokid](https://img.shields.io/badge/Rokid%20Glasses-111827?style=for-the-badge)
-![Go Backend](https://img.shields.io/badge/Go%20Backend-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Personal Blog](https://img.shields.io/badge/Personal%20Blog-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white)
-![IoT Web](https://img.shields.io/badge/IoT%20Web-2563EB?style=for-the-badge)
 
 **Lab and Organization / 实验室与组织**
 
 ![Zhize Lab](https://img.shields.io/badge/Zhize%20Lab-111827?style=for-the-badge)
-![Lab Management](https://img.shields.io/badge/Lab%20Management-4B5563?style=for-the-badge)
 ![RoboMaster](https://img.shields.io/badge/RoboMaster-B91C1C?style=for-the-badge)
 
 ## Project Index / 项目索引
@@ -99,14 +94,14 @@ I build small real robots from CAD, PCB, firmware, control software, vision, and
 | Project | What it shows | Evidence |
 | --- | --- | --- |
 | **78arm / UAV Delta arm** | Delta arm hardware, mechanical iteration, LX bus servos, G-code control, AprilTag/IMU sensing, Jetson-side vision experiments | [`delta_on_quadrotorUAV`](https://github.com/NHK-DOT/delta_on_quadrotorUAV) |
-| **Personal blog / Go web server** | Blog/web server experiment, web deployment notes, future project documentation entry | [`Go-based-web-server-personal-blog`](https://github.com/NHK-DOT/Go-based-web-server-personal-blog), [`hjc78big.top`](https://hjc78big.top) |
+| **Go web server** | Go backend/web server experiment, deployment notes, future project documentation entry | [`Go-based-web-server-personal-blog`](https://github.com/NHK-DOT/Go-based-web-server-personal-blog), [`hjc78big.top`](https://hjc78big.top) |
 | **Rokid glasses development** | Kotlin/Android-style hardware input testing, gamepad input tester, wearable interaction notes | [`rokid-deploy-record`](https://github.com/NHK-DOT/rokid-deploy-record) remote verified; local repo: `Rokid_Glasses_开发资料` |
 | **Service outsourcing competition** | ROS/Gazebo competition material, package rename to `service_outsourcing`, deployment scripts and report materials | [`service_outsourcing`](https://github.com/NHK-DOT/service_outsourcing) remote verified; repo visibility may depend on GitHub access |
 | **Backlog projects** | PS5 adaptive triggers, Waveshare kits, mecanum-wheel chassis, robot-dog experiments, UAV tooling, embedded board notes | To be cleaned and split into public repositories |
 
 ## Lab & Team Experience / 实验室与团队经历
 
-- **Hohai University Zhize Lab / 河海大学智泽实验室:** involved in lab management, organization, hardware resource coordination, project documentation, and day-to-day technical support.
+- **Hohai University Zhize Lab / 河海大学智泽实验室:** involved in lab organization, hardware resource coordination, project documentation, and day-to-day technical support.
 - **RoboMaster:** participated as a mechanical group member and electrical-control group member, working across mechanical structure, hardware bring-up, and control-related tasks.
 - **Lab photo wall:** planned. I will add selected lab and project photos here after the images are cleaned up and uploaded to the profile repository.
 
@@ -140,6 +135,12 @@ Current stars from GitHub repositories that are publicly visible through the API
 <p align="center">
   <img src="profile-3d-contrib/profile-night-green.svg" alt="3D GitHub contribution profile">
 </p>
+
+**Language detail behind the public stats / 公开统计里的语言细分**
+
+- `delta_on_quadrotorUAV`: Python, C++, Shell, G-code, PowerShell, Batchfile.
+- `Go-based-web-server-personal-blog`: HTML, Go, Python.
+- Small slices that may be grouped as `Other` by the card usually come from scripts, build files, G-code, and platform helper files.
 
 ## For New Visitors / 给新访问者
 
