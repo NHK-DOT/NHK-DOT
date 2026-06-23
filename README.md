@@ -41,7 +41,8 @@ I build small real robots from CAD, PCB, firmware, control software, vision, and
 - **Controller and kits:** PS5 DualSense adaptive trigger experiments, Waveshare kit development, gamepad input mapping, hardware interaction tools.
 - **Mechanical design:** SolidWorks, Fusion, CAD iteration, basic simulation, Bambu Lab A1/P1 series 3D printing, OrcaSlicer, Bambu Studio, post-processing, fitting, metalworking.
 - **PCB and hardware:** JLCEDA, Altium Designer, schematic/PCB drawing, wiring, bring-up, debugging, and practical lab tooling.
-- **Apps and web:** Kotlin Android development, Rokid glasses development experience, Go backend, server usage/deployment, personal blog, full-stack IoT demos such as temperature/humidity monitoring.
+- **Apps, web, and ops:** Kotlin Android development, Rokid glasses development experience, Go backend, server usage/deployment, server operations, personal blog, full-stack IoT demos such as temperature/humidity monitoring.
+- **Team and lab work:** lab management, project organization, hardware resource coordination, documentation, and cross-discipline robotics collaboration.
 
 ## Technical Stack / 技术栈
 
@@ -83,7 +84,14 @@ I build small real robots from CAD, PCB, firmware, control software, vision, and
 | **Sensing / 传感器** | WT61C IMU tools, JSON snapshot pipelines, camera and IMU experiment chain |
 | **Tooling / 工具链** | LX225 config tool, serial checks, workspace samplers, read-only preflight tools, PS5 adaptive-trigger experiments |
 | **Manufacturing / 制造** | SolidWorks/Fusion design, Bambu Lab printing, slicing, post-processing, metalworking |
-| **Apps / 应用** | Kotlin Android experiments, Rokid glasses development, Go backend, server deployment, personal blog, IoT temperature/humidity web demos |
+| **Apps and ops / 应用与运维** | Kotlin Android experiments, Rokid glasses development, Go backend, server deployment/operations, personal blog, IoT temperature/humidity web demos |
+| **Lab and team / 实验室与团队** | Hohai University Zhize Lab organization, lab management, RoboMaster mechanical and electrical-control team experience |
+
+## Lab & Team Experience / 实验室与团队经历
+
+- **Hohai University Zhize Lab / 河海大学智泽实验室:** involved in lab management, organization, hardware resource coordination, project documentation, and day-to-day technical support.
+- **RoboMaster:** participated as a mechanical group member and electrical-control group member, working across mechanical structure, hardware bring-up, and control-related tasks.
+- **Lab photo wall:** planned. I will add selected lab and project photos here after the images are cleaned up and uploaded to the profile repository.
 
 ## Public Repositories / 公开仓库
 
