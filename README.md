@@ -137,11 +137,7 @@ These directions are real learning and development tracks, but the repositories 
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NHK-DOT&theme=github-compact&hide_border=true" alt="GitHub activity graph">
-</p>
-
-<p align="center">
-  <img src="profile-3d-contrib/profile-gitblock.svg" alt="3D GitHub contribution profile">
+  <img src="profile-3d-contrib/profile-night-view.svg" alt="3D GitHub contribution profile">
 </p>
 
 ## For New Visitors / 给新访问者
