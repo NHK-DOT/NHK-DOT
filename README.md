@@ -34,60 +34,29 @@ I build small real robots from CAD, PCB, firmware, control software, vision, and
 - **CN:** 一个面向无人机平台的轻量 Delta 机械臂项目，覆盖结构建模、3D 打印件迭代、LX 总线舵机映射、G-code 到舵机控制、手柄实机控制、AprilTag/IMU 感知和 Jetson 视觉部署。
 - **EN:** A lightweight Delta-arm project for UAV-mounted or UAV-tested manipulation, covering mechanical design, printed-part iteration, LX bus-servo mapping, G-code control, gamepad teleoperation, AprilTag/IMU sensing, and Jetson vision deployment.
 
-## What I Work On / 我在做什么
+## Skills by Category / 分类技术栈
 
-- **Robotics control:** ROS 1/2, MoveIt, Delta kinematics, G-code motion pipeline, bus-servo control, serial protocol tools, gamepad teleoperation, safety preflight checks.
-- **Machine vision:** OpenCV, YOLO, AprilTag, camera calibration, dual-camera hand-eye geometry, IMU fusion experiments, Jetson-side vision experiments.
-- **Embedded systems:** C/C++, Python, Linux, Arch Linux, Raspberry Pi 4B, ESP32/ESP32-S3, ESP8266, STM32 G/H series, STM32MP257, sensor and actuator integration.
-- **Robot platforms:** Delta arm, UAV-related development, mecanum-wheel chassis, quadruped/robot-dog experiments, mobile robot bring-up.
-- **Controller and kits:** PS5 DualSense adaptive trigger experiments, Waveshare kit development, gamepad input mapping, hardware interaction tools.
-- **Mechanical design:** SolidWorks, Fusion, CAD iteration, basic simulation, Bambu Lab A1/P1 series 3D printing, OrcaSlicer, Bambu Studio, post-processing, fitting, metalworking.
-- **PCB and hardware:** JLCEDA, Altium Designer, schematic/PCB drawing, wiring, bring-up, debugging, and practical lab tooling.
-- **Apps, web, and ops:** Kotlin Android development, Rokid glasses development experience, Go backend, server usage/deployment, server operations, personal blog, full-stack IoT demos such as temperature/humidity monitoring.
-- **Team and lab work:** lab management, project organization, hardware resource coordination, documentation, and cross-discipline robotics collaboration.
-
-## Technical Stack / 技术栈
-
-<p>
-  <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C">
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
-  <img src="https://img.shields.io/badge/Arch%20Linux-1793D1?style=flat-square&logo=arch-linux&logoColor=white" alt="Arch Linux">
-  <img src="https://img.shields.io/badge/ROS-22314E?style=flat-square&logo=ros&logoColor=white" alt="ROS">
-  <img src="https://img.shields.io/badge/MoveIt-5C2D91?style=flat-square" alt="MoveIt">
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV">
-  <img src="https://img.shields.io/badge/YOLO-111111?style=flat-square" alt="YOLO">
-  <img src="https://img.shields.io/badge/AprilTag-2F80ED?style=flat-square" alt="AprilTag">
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go">
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin">
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android">
-  <img src="https://img.shields.io/badge/Server-4B5563?style=flat-square&logo=linux&logoColor=white" alt="Server">
-  <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32">
-  <img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32">
-  <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat-square&logo=raspberry-pi&logoColor=white" alt="Raspberry Pi">
-  <img src="https://img.shields.io/badge/STM32MP257-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32MP257">
-  <img src="https://img.shields.io/badge/Waveshare-1677FF?style=flat-square" alt="Waveshare">
-  <img src="https://img.shields.io/badge/PS5%20DualSense-003791?style=flat-square&logo=playstation&logoColor=white" alt="PS5 DualSense">
-  <img src="https://img.shields.io/badge/SolidWorks-D22128?style=flat-square" alt="SolidWorks">
-  <img src="https://img.shields.io/badge/Fusion-ED7A00?style=flat-square&logo=autodesk&logoColor=white" alt="Fusion">
-  <img src="https://img.shields.io/badge/JLCEDA-1E88E5?style=flat-square" alt="JLCEDA">
-  <img src="https://img.shields.io/badge/Altium%20Designer-A5915F?style=flat-square" alt="Altium Designer">
-  <img src="https://img.shields.io/badge/Bambu%20Lab-00AE42?style=flat-square" alt="Bambu Lab">
-</p>
-
-## Project Map / 项目地图
-
-| Area | Projects and outputs |
+| Category | Tools and experience |
 | --- | --- |
-| **Robot arm / 机械臂** | `78arm`, Delta IK, real-machine controller, bus-servo mapping, G-code to servo commands |
-| **Mobile robots / 移动机器人** | Mecanum-wheel car, quadruped/robot-dog experiments, UAV platform development |
-| **Vision / 视觉** | AprilTag pose estimation, YOLO detection, fisheye calibration, Jetson-side vision experiments |
-| **Sensing / 传感器** | WT61C IMU tools, JSON snapshot pipelines, camera and IMU experiment chain |
-| **Tooling / 工具链** | LX225 config tool, serial checks, workspace samplers, read-only preflight tools, PS5 adaptive-trigger experiments |
-| **Manufacturing / 制造** | SolidWorks/Fusion design, Bambu Lab printing, slicing, post-processing, metalworking |
-| **Apps and ops / 应用与运维** | Kotlin Android experiments, Rokid glasses development, Go backend, server deployment/operations, personal blog, IoT temperature/humidity web demos |
-| **Lab and team / 实验室与团队** | Hohai University Zhize Lab organization, lab management, RoboMaster mechanical and electrical-control team experience |
+| **Programming / 编程语言** | C, C++, Python, Go, Kotlin |
+| **Operating environments / 操作环境** | Linux, Arch Linux, Ubuntu/Jetson-side development, ROS 1/2 workspaces, server usage and operations |
+| **Robotics and motion / 机器人控制** | ROS 1/2, MoveIt, Delta kinematics, G-code motion pipeline, LX bus-servo mapping, serial tools, gamepad teleoperation |
+| **Vision and sensing / 视觉与传感** | OpenCV, YOLO, AprilTag, camera calibration, dual-camera hand-eye geometry, WT61C IMU snapshots |
+| **Boards and embedded / 板卡与嵌入式** | ESP32, ESP32-S3, ESP8266, STM32 G/H series, STM32MP257, Raspberry Pi 4B, Jetson-side experiments, Waveshare kits |
+| **Hardware and manufacturing / 硬件与制造** | SolidWorks, Fusion, JLCEDA, Altium Designer, Bambu Lab A1/P1 series, OrcaSlicer, Bambu Studio, post-processing, metalworking |
+| **Application layer / 应用层** | Kotlin Android, Rokid glasses development, PS5 DualSense adaptive trigger experiments, Go backend, personal blog, IoT temperature/humidity web demos |
+| **Team and lab / 团队与实验室** | Hohai University Zhize Lab organization, lab management, hardware resource coordination, RoboMaster mechanical and electrical-control experience |
+
+## Project Index / 项目索引
+
+| Project | What it shows | Evidence |
+| --- | --- | --- |
+| **78arm / UAV Delta arm** | Delta arm hardware, mechanical iteration, LX bus servos, G-code control, AprilTag/IMU sensing, Jetson-side vision experiments | [`delta_on_quadrotorUAV`](https://github.com/NHK-DOT/delta_on_quadrotorUAV) |
+| **Personal blog / Go web server** | Blog/web server experiment, web deployment notes, future project documentation entry | [`Go-based-web-server-personal-blog`](https://github.com/NHK-DOT/Go-based-web-server-personal-blog), [`hjc78big.top`](https://hjc78big.top) |
+| **Rokid glasses development** | Kotlin/Android-style hardware input testing, gamepad input tester, wearable interaction notes | [`rokid-deploy-record`](https://github.com/NHK-DOT/rokid-deploy-record) remote verified; local repo: `Rokid_Glasses_开发资料` |
+| **Service outsourcing competition** | ROS/Gazebo competition material, package rename to `service_outsourcing`, deployment scripts and report materials | [`service_outsourcing`](https://github.com/NHK-DOT/service_outsourcing) remote verified; repo visibility may depend on GitHub access |
+| **RoboMaster / navigation work** | ROS 2 navigation workspace, bringup, serial, Livox driver and navigation plugin materials | [`cod_-rm2026_-navigation`](https://gitee.com/codnavgation/cod_-rm2026_-navigation) plus local workspace |
+| **Backlog projects** | PS5 adaptive triggers, Waveshare kits, mecanum-wheel chassis, robot-dog experiments, UAV tooling, embedded board notes | To be cleaned and split into public repositories |
 
 ## Lab & Team Experience / 实验室与团队经历
 
@@ -95,27 +64,11 @@ I build small real robots from CAD, PCB, firmware, control software, vision, and
 - **RoboMaster:** participated as a mechanical group member and electrical-control group member, working across mechanical structure, hardware bring-up, and control-related tasks.
 - **Lab photo wall:** planned. I will add selected lab and project photos here after the images are cleaned up and uploaded to the profile repository.
 
-## Public Repositories / 公开仓库
-
-<p align="center">
-  <a href="https://github.com/NHK-DOT/delta_on_quadrotorUAV">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NHK-DOT&repo=delta_on_quadrotorUAV&theme=transparent&hide_border=true" alt="delta_on_quadrotorUAV">
-  </a>
-  <a href="https://github.com/NHK-DOT/Go-based-web-server-personal-blog">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NHK-DOT&repo=Go-based-web-server-personal-blog&theme=transparent&hide_border=true" alt="Go-based web server personal blog">
-  </a>
-</p>
-
-- [`delta_on_quadrotorUAV`](https://github.com/NHK-DOT/delta_on_quadrotorUAV): current main robotics repository, centered on the UAV-mounted Delta arm and its vision/control toolchain.
-- [`Go-based-web-server-personal-blog`](https://github.com/NHK-DOT/Go-based-web-server-personal-blog): personal blog / web server experiment, connected with my long-term project documentation site.
-
 ## Open-Source Roadmap / 开源计划
 
 - Split reusable tools from `78arm` into smaller public repositories.
-- Make servo mapping, AprilTag vision, calibration, and workspace-sampling tools easier to reuse.
-- Publish small, reusable repositories for PS5 DualSense adaptive triggers, Waveshare kits, mecanum-wheel chassis control, robot-dog experiments, UAV tooling, Android/Rokid demos, and embedded board bring-up notes.
-- Keep project READMEs practical: hardware path, wiring assumptions, safety notes, and runnable commands.
-- Document real-machine failures as clearly as successful demos.
+- Clean and publish Rokid, PS5 DualSense, Waveshare, mecanum chassis, robot-dog, UAV, and embedded-board notes when the code and README are ready.
+- Keep each repo traceable: hardware assumptions, runnable commands, safety notes, and failure records should stay with the code.
 
 ## Backlog to Open Source / 待整理开源方向
 
@@ -131,13 +84,15 @@ These directions are real learning and development tracks, but the repositories 
 
 ## GitHub Signals / GitHub 公开贡献概览
 
+Current stars from GitHub repositories that are publicly visible through the API: **4**.
+
 <p align="center">
-  <img height="155" src="https://github-readme-stats.vercel.app/api?username=NHK-DOT&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" alt="GitHub stats">
+  <img height="155" src="https://github-readme-stats.vercel.app/api?username=NHK-DOT&show_icons=true&include_all_commits=true&theme=transparent&hide_border=true&rank_icon=github" alt="GitHub stats">
   <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NHK-DOT&layout=compact&theme=transparent&hide_border=true" alt="Top languages">
 </p>
 
 <p align="center">
-  <img src="profile-3d-contrib/profile-night-view.svg" alt="3D GitHub contribution profile">
+  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub contribution profile">
 </p>
 
 ## For New Visitors / 给新访问者
