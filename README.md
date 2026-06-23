@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/avatar.jpg" width="128" height="128" alt="NHK-DOT avatar">
+
 # NHK-DOT / XDXD
 
 **Hohai University Automation 2024 | Robotics Full-Stack Builder**  
