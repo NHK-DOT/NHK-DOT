@@ -65,16 +65,34 @@ I build small real robots from CAD, PCB, firmware, control software, vision, and
 ![Waveshare](https://img.shields.io/badge/Waveshare-1677FF?style=for-the-badge)
 ![PS5 DualSense](https://img.shields.io/badge/PS5%20DualSense-003791?style=for-the-badge&logo=playstation&logoColor=white)
 
-**CAD, PCB, Apps, and Manufacturing / 建模、电路、应用与制造**
+**CAD and PCB / 建模与电路**
 
 ![SolidWorks](https://img.shields.io/badge/SolidWorks-D22128?style=for-the-badge)
 ![Fusion](https://img.shields.io/badge/Fusion-ED7A00?style=for-the-badge&logo=autodesk&logoColor=white)
 ![JLCEDA](https://img.shields.io/badge/JLCEDA-1E88E5?style=for-the-badge)
 ![Altium Designer](https://img.shields.io/badge/Altium%20Designer-A5915F?style=for-the-badge)
+
+**3D Printing and Fabrication / 3D 打印与加工**
+
 ![Bambu Lab](https://img.shields.io/badge/Bambu%20Lab-00AE42?style=for-the-badge)
+![Bambu Studio](https://img.shields.io/badge/Bambu%20Studio-00AE42?style=for-the-badge)
 ![OrcaSlicer](https://img.shields.io/badge/OrcaSlicer-2F80ED?style=for-the-badge)
+![Post Processing](https://img.shields.io/badge/Post%20Processing-6B7280?style=for-the-badge)
+![Metalworking](https://img.shields.io/badge/Metalworking-374151?style=for-the-badge)
+
+**Apps, Web, and Wearables / 应用、网站与可穿戴**
+
 ![Android](https://img.shields.io/badge/Kotlin%20Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Rokid](https://img.shields.io/badge/Rokid%20Glasses-111827?style=for-the-badge)
+![Go Backend](https://img.shields.io/badge/Go%20Backend-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Personal Blog](https://img.shields.io/badge/Personal%20Blog-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white)
+![IoT Web](https://img.shields.io/badge/IoT%20Web-2563EB?style=for-the-badge)
+
+**Lab and Organization / 实验室与组织**
+
+![Zhize Lab](https://img.shields.io/badge/Zhize%20Lab-111827?style=for-the-badge)
+![Lab Management](https://img.shields.io/badge/Lab%20Management-4B5563?style=for-the-badge)
+![RoboMaster](https://img.shields.io/badge/RoboMaster-B91C1C?style=for-the-badge)
 
 ## Project Index / 项目索引
 
@@ -116,7 +134,7 @@ Current stars from GitHub repositories that are publicly visible through the API
 
 <p align="center">
   <img height="155" src="https://github-readme-stats.vercel.app/api?username=NHK-DOT&show_icons=true&include_all_commits=true&theme=transparent&hide_border=true&rank_icon=github" alt="GitHub stats">
-  <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NHK-DOT&layout=compact&theme=transparent&hide_border=true" alt="Top languages">
+  <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NHK-DOT&layout=compact&langs_count=10&theme=transparent&hide_border=true" alt="Top languages">
 </p>
 
 <p align="center">
