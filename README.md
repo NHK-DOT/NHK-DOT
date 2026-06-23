@@ -72,6 +72,7 @@ I build small real robots from CAD, PCB, firmware, control software, vision, and
 ![JLCEDA](https://img.shields.io/badge/JLCEDA-1E88E5?style=for-the-badge)
 ![Altium Designer](https://img.shields.io/badge/Altium%20Designer-A5915F?style=for-the-badge)
 ![Bambu Lab](https://img.shields.io/badge/Bambu%20Lab-00AE42?style=for-the-badge)
+![OrcaSlicer](https://img.shields.io/badge/OrcaSlicer-2F80ED?style=for-the-badge)
 ![Android](https://img.shields.io/badge/Kotlin%20Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Rokid](https://img.shields.io/badge/Rokid%20Glasses-111827?style=for-the-badge)
 
