@@ -1,0 +1,23 @@
+name: Generate 3D contribution profile
+
+on:
+  schedule:
+    - cron: "20 18 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: NHK-DOT
+      - name: Commit generated 3D contribution graph
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Generate 3D contribution graph"
+          file_pattern: profile-3d-contrib/*.svg
