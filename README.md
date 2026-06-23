@@ -11,6 +11,7 @@ I build small real robots from CAD, PCB, firmware, control software, vision, and
 我关注从机械结构、电路、嵌入式、控制、机器视觉到实机部署的完整机器人链路。
 
 [![Website](https://img.shields.io/badge/Website-hjc78big.top-0A66C2?style=flat-square&logo=google-chrome&logoColor=white)](https://hjc78big.top)
+[![QQ](https://img.shields.io/badge/QQ-2856463157-12B7F5?style=flat-square&logo=tencentqq&logoColor=white)](mailto:2856463157@qq.com)
 [![Email](https://img.shields.io/badge/Email-2856463157%40qq.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:2856463157@qq.com)
 [![Outlook](https://img.shields.io/badge/Outlook-h4a6n%40outlook.com-0078D4?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:h4a6n@outlook.com)
 [![Profile views](https://komarev.com/ghpvc/?username=NHK-DOT&label=Profile%20views&color=0e75b6&style=flat-square)](https://github.com/NHK-DOT)
@@ -36,16 +37,43 @@ I build small real robots from CAD, PCB, firmware, control software, vision, and
 
 ## Skills by Category / 分类技术栈
 
-| Category | Tools and experience |
-| --- | --- |
-| **Programming / 编程语言** | C, C++, Python, Go, Kotlin |
-| **Operating environments / 操作环境** | Linux, Arch Linux, Ubuntu/Jetson-side development, ROS 1/2 workspaces, server usage and operations |
-| **Robotics and motion / 机器人控制** | ROS 1/2, MoveIt, Delta kinematics, G-code motion pipeline, LX bus-servo mapping, serial tools, gamepad teleoperation |
-| **Vision and sensing / 视觉与传感** | OpenCV, YOLO, AprilTag, camera calibration, dual-camera hand-eye geometry, WT61C IMU snapshots |
-| **Boards and embedded / 板卡与嵌入式** | ESP32, ESP32-S3, ESP8266, STM32 G/H series, STM32MP257, Raspberry Pi 4B, Jetson-side experiments, Waveshare kits |
-| **Hardware and manufacturing / 硬件与制造** | SolidWorks, Fusion, JLCEDA, Altium Designer, Bambu Lab A1/P1 series, OrcaSlicer, Bambu Studio, post-processing, metalworking |
-| **Application layer / 应用层** | Kotlin Android, Rokid glasses development, PS5 DualSense adaptive trigger experiments, Go backend, personal blog, IoT temperature/humidity web demos |
-| **Team and lab / 团队与实验室** | Hohai University Zhize Lab organization, lab management, hardware resource coordination, RoboMaster mechanical and electrical-control experience |
+**Programming / 编程语言**
+
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+
+**Systems, Robotics, and Vision / 系统、机器人与视觉**
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Arch Linux](https://img.shields.io/badge/Arch%20Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
+![ROS](https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white)
+![MoveIt](https://img.shields.io/badge/MoveIt-5C2D91?style=for-the-badge)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![YOLO](https://img.shields.io/badge/YOLO-111111?style=for-the-badge)
+![AprilTag](https://img.shields.io/badge/AprilTag-2F80ED?style=for-the-badge)
+![Server Ops](https://img.shields.io/badge/Server%20Ops-4B5563?style=for-the-badge&logo=linux&logoColor=white)
+
+**Embedded Boards and Controllers / 板卡与控制器**
+
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
+![STM32MP257](https://img.shields.io/badge/STM32MP257-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberry-pi&logoColor=white)
+![Waveshare](https://img.shields.io/badge/Waveshare-1677FF?style=for-the-badge)
+![PS5 DualSense](https://img.shields.io/badge/PS5%20DualSense-003791?style=for-the-badge&logo=playstation&logoColor=white)
+
+**CAD, PCB, Apps, and Manufacturing / 建模、电路、应用与制造**
+
+![SolidWorks](https://img.shields.io/badge/SolidWorks-D22128?style=for-the-badge)
+![Fusion](https://img.shields.io/badge/Fusion-ED7A00?style=for-the-badge&logo=autodesk&logoColor=white)
+![JLCEDA](https://img.shields.io/badge/JLCEDA-1E88E5?style=for-the-badge)
+![Altium Designer](https://img.shields.io/badge/Altium%20Designer-A5915F?style=for-the-badge)
+![Bambu Lab](https://img.shields.io/badge/Bambu%20Lab-00AE42?style=for-the-badge)
+![Android](https://img.shields.io/badge/Kotlin%20Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Rokid](https://img.shields.io/badge/Rokid%20Glasses-111827?style=for-the-badge)
 
 ## Project Index / 项目索引
 
@@ -55,7 +83,6 @@ I build small real robots from CAD, PCB, firmware, control software, vision, and
 | **Personal blog / Go web server** | Blog/web server experiment, web deployment notes, future project documentation entry | [`Go-based-web-server-personal-blog`](https://github.com/NHK-DOT/Go-based-web-server-personal-blog), [`hjc78big.top`](https://hjc78big.top) |
 | **Rokid glasses development** | Kotlin/Android-style hardware input testing, gamepad input tester, wearable interaction notes | [`rokid-deploy-record`](https://github.com/NHK-DOT/rokid-deploy-record) remote verified; local repo: `Rokid_Glasses_开发资料` |
 | **Service outsourcing competition** | ROS/Gazebo competition material, package rename to `service_outsourcing`, deployment scripts and report materials | [`service_outsourcing`](https://github.com/NHK-DOT/service_outsourcing) remote verified; repo visibility may depend on GitHub access |
-| **RoboMaster / navigation work** | ROS 2 navigation workspace, bringup, serial, Livox driver and navigation plugin materials | [`cod_-rm2026_-navigation`](https://gitee.com/codnavgation/cod_-rm2026_-navigation) plus local workspace |
 | **Backlog projects** | PS5 adaptive triggers, Waveshare kits, mecanum-wheel chassis, robot-dog experiments, UAV tooling, embedded board notes | To be cleaned and split into public repositories |
 
 ## Lab & Team Experience / 实验室与团队经历
@@ -92,7 +119,7 @@ Current stars from GitHub repositories that are publicly visible through the API
 </p>
 
 <p align="center">
-  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub contribution profile">
+  <img src="profile-3d-contrib/profile-night-green.svg" alt="3D GitHub contribution profile">
 </p>
 
 ## For New Visitors / 给新访问者
