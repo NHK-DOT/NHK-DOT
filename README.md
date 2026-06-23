@@ -35,13 +35,13 @@ I build small real robots from CAD, PCB, firmware, control software, vision, and
 ## What I Work On / 我在做什么
 
 - **Robotics control:** ROS 1/2, MoveIt, Delta kinematics, G-code motion pipeline, bus-servo control, serial protocol tools, gamepad teleoperation, safety preflight checks.
-- **Machine vision:** OpenCV, YOLO, AprilTag, camera calibration, dual-camera hand-eye geometry, IMU fusion experiments, TensorRT/Jetson deployment.
+- **Machine vision:** OpenCV, YOLO, AprilTag, camera calibration, dual-camera hand-eye geometry, IMU fusion experiments, Jetson-side vision experiments.
 - **Embedded systems:** C/C++, Python, Linux, Arch Linux, Raspberry Pi 4B, ESP32/ESP32-S3, ESP8266, STM32 G/H series, STM32MP257, sensor and actuator integration.
 - **Robot platforms:** Delta arm, UAV-related development, mecanum-wheel chassis, quadruped/robot-dog experiments, mobile robot bring-up.
 - **Controller and kits:** PS5 DualSense adaptive trigger experiments, Waveshare kit development, gamepad input mapping, hardware interaction tools.
 - **Mechanical design:** SolidWorks, Fusion, CAD iteration, basic simulation, Bambu Lab A1/P1 series 3D printing, OrcaSlicer, Bambu Studio, post-processing, fitting, metalworking.
 - **PCB and hardware:** JLCEDA, Altium Designer, schematic/PCB drawing, wiring, bring-up, debugging, and practical lab tooling.
-- **Apps and web:** Android development, Rokid glasses development experience, personal blog, full-stack IoT demos such as temperature/humidity monitoring.
+- **Apps and web:** Kotlin Android development, Rokid glasses development experience, Go backend, server usage/deployment, personal blog, full-stack IoT demos such as temperature/humidity monitoring.
 
 ## Technical Stack / 技术栈
 
@@ -56,8 +56,10 @@ I build small real robots from CAD, PCB, firmware, control software, vision, and
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV">
   <img src="https://img.shields.io/badge/YOLO-111111?style=flat-square" alt="YOLO">
   <img src="https://img.shields.io/badge/AprilTag-2F80ED?style=flat-square" alt="AprilTag">
-  <img src="https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="TensorRT">
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go">
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin">
   <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android">
+  <img src="https://img.shields.io/badge/Server-4B5563?style=flat-square&logo=linux&logoColor=white" alt="Server">
   <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32">
   <img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32">
   <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat-square&logo=raspberry-pi&logoColor=white" alt="Raspberry Pi">
@@ -77,11 +79,11 @@ I build small real robots from CAD, PCB, firmware, control software, vision, and
 | --- | --- |
 | **Robot arm / 机械臂** | `78arm`, Delta IK, real-machine controller, bus-servo mapping, G-code to servo commands |
 | **Mobile robots / 移动机器人** | Mecanum-wheel car, quadruped/robot-dog experiments, UAV platform development |
-| **Vision / 视觉** | AprilTag pose estimation, YOLO detection, fisheye calibration, Jetson/TensorRT export |
+| **Vision / 视觉** | AprilTag pose estimation, YOLO detection, fisheye calibration, Jetson-side vision experiments |
 | **Sensing / 传感器** | WT61C IMU tools, JSON snapshot pipelines, camera and IMU experiment chain |
 | **Tooling / 工具链** | LX225 config tool, serial checks, workspace samplers, read-only preflight tools, PS5 adaptive-trigger experiments |
 | **Manufacturing / 制造** | SolidWorks/Fusion design, Bambu Lab printing, slicing, post-processing, metalworking |
-| **Apps / 应用** | Android experiments, Rokid glasses development, personal blog, IoT temperature/humidity web demos |
+| **Apps / 应用** | Kotlin Android experiments, Rokid glasses development, Go backend, server deployment, personal blog, IoT temperature/humidity web demos |
 
 ## Public Repositories / 公开仓库
 
