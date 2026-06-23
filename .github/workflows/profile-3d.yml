@@ -1,6 +1,11 @@
 name: Generate 3D contribution profile
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/profile-3d.yml"
   schedule:
     - cron: "20 18 * * *"
   workflow_dispatch:
