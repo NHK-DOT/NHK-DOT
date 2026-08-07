@@ -19,7 +19,7 @@
 
 ## Resume / 个人简历
 
-- [中文简历 PDF](resume/Han_Juncheng_Resume.pdf) · [LaTeX 源码](resume/Han_Juncheng_Resume.tex)
+- [中文简历 PDF](resume/Han_Juncheng_Resume.pdf) 
 - **教育：** 河海大学人工智能与自动化学院，自动化本科，2024.09 至预计 2028.06。
 - **方向：** 机器人运动控制、硬件全栈、嵌入式软件、机械结构设计。
 - **当前经历：** 河海大学智泽实验室领队、RoboMaster 战队机械队员。
