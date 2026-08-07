@@ -7,9 +7,6 @@
 **Hohai University Automation 2024 | Robotics Full-Stack Builder**  
 **河海大学 2024 级自动化 | 机器人全栈方向**
 
-I build small real robots from CAD, PCB, firmware, control software, vision, and deployment.  
-我关注从机械结构、电路、嵌入式、控制、机器视觉到实机部署的完整机器人链路。
-
 [![Website](https://img.shields.io/badge/Website-hjc78big.top-0A66C2?style=flat-square&logo=google-chrome&logoColor=white)](https://hjc78big.top)
 [![QQ](https://img.shields.io/badge/QQ-2856463157-12B7F5?style=flat-square&logo=tencentqq&logoColor=white)](mailto:2856463157@qq.com)
 [![Email](https://img.shields.io/badge/Email-2856463157%40qq.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:2856463157@qq.com)
@@ -20,7 +17,22 @@ I build small real robots from CAD, PCB, firmware, control software, vision, and
 
 ---
 
+## Resume / 个人简历
+
+- [中文简历 PDF](resume/Han_Juncheng_Resume.pdf) · [LaTeX 源码](resume/Han_Juncheng_Resume.tex)
+- **教育：** 河海大学人工智能与自动化学院，自动化本科，2024.09 至预计 2028.06。
+- **方向：** 机器人运动控制、硬件全栈、嵌入式软件、机械结构设计。
+- **当前经历：** 河海大学智泽实验室领队、RoboMaster 战队机械队员。
+- **竞赛：** 人工智能精英算法大赛国二、嵌入式竞赛国二、物联网杯省二、MCM/ICM H 奖、服务外包大赛国三，均担任项目队长。
+
 ## Featured Work / 代表项目
+
+### 智慧社区视觉导航小车 / Smart Community Robot Car
+
+[`roscar-second`](https://github.com/NHK-DOT/roscar-second)
+
+- **CN:** 桌面项目为 ROS/catkin 工作区，包含视觉检测、相机采集、路径与航点导航、激光雷达代价地图、RViz/IMU 工具和多个 ONNX 检测模型。
+- **EN:** A ROS/catkin workspace covering visual detection, camera capture, waypoint navigation, lidar costmaps, RViz/IMU tools, and ONNX detection models.
 
 ### 78arm: Delta arm for UAV / 无人机挂载 Delta 机械臂
 
@@ -51,6 +63,15 @@ I build small real robots from CAD, PCB, firmware, control software, vision, and
 ![Server Ops](https://img.shields.io/badge/Server%20Ops-4B5563?style=for-the-badge&logo=linux&logoColor=white)
 ![Android](https://img.shields.io/badge/Kotlin%20Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 
+**Tools and Middleware / 工具与中间件**
+
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Gazebo](https://img.shields.io/badge/Gazebo-FF6600?style=for-the-badge)
+![MAVROS](https://img.shields.io/badge/MAVROS-22314E?style=for-the-badge)
+![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+
 **Embedded Boards and Controllers / 板卡与控制器**
 
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
@@ -59,6 +80,9 @@ I build small real robots from CAD, PCB, firmware, control software, vision, and
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberry-pi&logoColor=white)
 ![Waveshare](https://img.shields.io/badge/Waveshare-1677FF?style=for-the-badge)
 ![PS5 DualSense](https://img.shields.io/badge/PS5%20DualSense-003791?style=for-the-badge&logo=playstation&logoColor=white)
+![Jetson](https://img.shields.io/badge/Jetson-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-00AEEF?style=for-the-badge)
+![UWB AOA](https://img.shields.io/badge/UWB%20AOA-374151?style=for-the-badge)
 
 **CAD and PCB / 建模与电路**
 
@@ -88,18 +112,11 @@ I build small real robots from CAD, PCB, firmware, control software, vision, and
 | Project | What it shows | Evidence |
 | --- | --- | --- |
 | **78arm / UAV Delta arm** | Delta arm hardware, mechanical iteration, LX bus servos, G-code control, AprilTag/IMU sensing, Jetson-side vision experiments | [`delta_on_quadrotorUAV`](https://github.com/NHK-DOT/delta_on_quadrotorUAV) |
+| **Smart community robot car** | ROS/catkin workspace, visual detection, waypoint navigation, lidar costmaps, ONNX models and IMU tools | [`roscar-second`](https://github.com/NHK-DOT/roscar-second) |
 | **Go web server** | Go backend/web server experiment, deployment notes, future project documentation entry | [`Go-based-web-server-personal-blog`](https://github.com/NHK-DOT/Go-based-web-server-personal-blog), [`hjc78big.top`](https://hjc78big.top) |
 | **Rokid glasses development** | Kotlin/Android-style hardware input testing, gamepad input tester, wearable interaction notes | [`rokid-deploy-record`](https://github.com/NHK-DOT/rokid-deploy-record) remote verified; local repo: `Rokid_Glasses_开发资料` |
 | **Service outsourcing competition** | ROS/Gazebo competition material, package rename to `service_outsourcing`, deployment scripts and report materials | [`service_outsourcing`](https://github.com/NHK-DOT/service_outsourcing) remote verified; repo visibility may depend on GitHub access |
 | **Backlog projects** | PS5 adaptive triggers, Waveshare kits, mecanum-wheel chassis, robot-dog experiments, UAV tooling, embedded board notes | To be cleaned and split into public repositories |
-
-## Resume / 个人简历
-
-- [中文简历 PDF](resume/Han_Juncheng_Resume.pdf) · [LaTeX 源码](resume/Han_Juncheng_Resume.tex)
-- **教育：** 河海大学人工智能与自动化学院，自动化本科，2024.09 至预计 2028.06。
-- **方向：** 机器人运动控制、硬件全栈、嵌入式软件、机械结构设计。
-- **当前经历：** 河海大学智泽实验室领队、RoboMaster 战队机械队员。
-- **竞赛：** 人工智能精英算法大赛国二、嵌入式竞赛国二、物联网杯省二、MCM/ICM H 奖、服务外包大赛国三，均担任项目队长。
 
 ## Lab & Team Experience / 实验室与团队经历
 
