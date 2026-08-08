@@ -21,7 +21,7 @@
 
 - [中文简历 PDF](resume/Han_Juncheng_Resume.pdf)
 - **教育：** 河海大学人工智能与自动化学院，自动化本科，2024.09 至预计 2028.06。
-- **方向：** 机器人运动控制、硬件开发、嵌入式软件、机械结构设计。
+- **方向：** 机器人全栈、嵌入式全栈。
 - **当前经历：** 河海大学智泽实验室领队、RoboMaster 战队机械队员。
 - **竞赛：** 人工智能精英算法大赛国二、嵌入式竞赛国二、物联网杯省二、MCM/ICM H 奖、服务外包大赛国三，均担任项目队长。
 
@@ -31,8 +31,8 @@
 
 [`roscar-second`](https://github.com/NHK-DOT/roscar-second)
 
-- **CN:** 桌面项目为 ROS/catkin 工作区，包含视觉检测、相机采集、路径与航点导航、激光雷达代价地图、RViz/IMU 工具和多个 ONNX 检测模型。
-- **EN:** A ROS/catkin workspace covering visual detection, camera capture, waypoint navigation, lidar costmaps, RViz/IMU tools, and ONNX detection models.
+- **CN:** 基于 ROS 1/catkin 的多任务巡检小车，使用 AMCL、Dijkstra、DWA 和代价地图完成定位与路径规划，通过 FIFO 状态机与 ROS Action 串行调度 35 个航点，并结合 EKF/TF、梯形速度规划、ONNX Runtime、PaddleOCR、HSV 识别和离线 Kokoro TTS 完成底盘控制与到点任务。
+- **EN:** A ROS 1/catkin multi-task inspection robot using AMCL, Dijkstra, DWA, and costmaps for navigation; a FIFO state machine and ROS Action for 35-waypoint scheduling; and EKF/TF, trapezoidal velocity planning, ONNX Runtime, PaddleOCR, HSV perception, and offline Kokoro TTS for chassis control and waypoint tasks.
 
 ### 78Arm: Delta arm for UAV / 无人机挂载 Delta 机械臂
 
@@ -59,26 +59,44 @@
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 
-**Systems, Robotics, and Vision / 系统、机器人与视觉**
+**Robot Navigation and Control / 机器人导航与控制**
+
+![ROS 1/2](https://img.shields.io/badge/ROS%201%2F2-22314E?style=for-the-badge&logo=ros&logoColor=white)
+![ROS Navigation](https://img.shields.io/badge/ROS%20Navigation-22314E?style=for-the-badge&logo=ros&logoColor=white)
+![MoveIt](https://img.shields.io/badge/MoveIt-5C2D91?style=for-the-badge)
+![AMCL](https://img.shields.io/badge/AMCL-0B7285?style=for-the-badge)
+![Dijkstra](https://img.shields.io/badge/Dijkstra-2563EB?style=for-the-badge)
+![DWA](https://img.shields.io/badge/DWA-2563EB?style=for-the-badge)
+![EKF / TF](https://img.shields.io/badge/EKF%20%2F%20TF-0F766E?style=for-the-badge)
+![ROS Action](https://img.shields.io/badge/ROS%20Action-22314E?style=for-the-badge&logo=ros&logoColor=white)
+![PID / LQR](https://img.shields.io/badge/PID%20%2F%20LQR-7C3AED?style=for-the-badge)
+![Trapezoidal Profile](https://img.shields.io/badge/Trapezoidal%20Profile-7C3AED?style=for-the-badge)
+
+**Vision, Inference, and Speech / 视觉、推理与语音**
+
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![YOLO](https://img.shields.io/badge/YOLO-111111?style=for-the-badge)
+![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![ONNX Runtime](https://img.shields.io/badge/ONNX%20Runtime-005CED?style=for-the-badge&logo=onnx&logoColor=white)
+![PaddleOCR](https://img.shields.io/badge/PaddleOCR-0062B0?style=for-the-badge)
+![HSV](https://img.shields.io/badge/HSV%20Segmentation-B84A62?style=for-the-badge)
+![AprilTag](https://img.shields.io/badge/AprilTag-2F80ED?style=for-the-badge)
+![Kokoro TTS](https://img.shields.io/badge/Kokoro%20TTS-6D28D9?style=for-the-badge)
+
+**Systems and Middleware / 系统与中间件**
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Arch Linux](https://img.shields.io/badge/Arch%20Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
-![ROS](https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white)
-![MoveIt](https://img.shields.io/badge/MoveIt-5C2D91?style=for-the-badge)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![YOLO](https://img.shields.io/badge/YOLO-111111?style=for-the-badge)
-![AprilTag](https://img.shields.io/badge/AprilTag-2F80ED?style=for-the-badge)
-![Server Ops](https://img.shields.io/badge/Server%20Ops-4B5563?style=for-the-badge&logo=linux&logoColor=white)
-![Android](https://img.shields.io/badge/Kotlin%20Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-
-**Tools and Middleware / 工具与中间件**
-
 ![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
+![catkin](https://img.shields.io/badge/catkin-22314E?style=for-the-badge&logo=ros&logoColor=white)
+![actionlib](https://img.shields.io/badge/actionlib-22314E?style=for-the-badge&logo=ros&logoColor=white)
+![robot_localization](https://img.shields.io/badge/robot__localization-22314E?style=for-the-badge&logo=ros&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Gazebo](https://img.shields.io/badge/Gazebo-FF6600?style=for-the-badge)
 ![MAVROS](https://img.shields.io/badge/MAVROS-22314E?style=for-the-badge)
-![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![Server Ops](https://img.shields.io/badge/Server%20Ops-4B5563?style=for-the-badge&logo=linux&logoColor=white)
+![Android](https://img.shields.io/badge/Kotlin%20Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 
 **Embedded Boards and Controllers / 板卡与控制器**
 
@@ -120,7 +138,7 @@
 | Project | Contents | Link |
 | --- | --- | --- |
 | **78Arm / UAV Delta arm** | Delta arm hardware, printed parts, LX bus servos, G-code control, AprilTag/IMU positioning and Jetson vision | [`delta_on_quadrotorUAV`](https://github.com/NHK-DOT/delta_on_quadrotorUAV) |
-| **78Car / Smart community robot car** | ROS/catkin code, visual detection, waypoint navigation, lidar costmaps, ONNX models and IMU tools | [`roscar-second`](https://github.com/NHK-DOT/roscar-second) |
+| **78Car / Smart community robot car** | ROS 1/catkin, AMCL/Dijkstra/DWA navigation, FIFO/Action waypoint scheduling, EKF/TF chassis control, ONNX/OCR/HSV perception and offline Kokoro TTS | [`roscar-second`](https://github.com/NHK-DOT/roscar-second) |
 | **78Matrix / Waveshare PixelMatrixStudio** | ESP32 HUB75 firmware, browser and Windows editors, PMX animations, HTTPS upload and RAM playback | [`Waveshare_PixelMatrixStudio`](https://github.com/NHK-DOT/Waveshare_PixelMatrixStudio) |
 | **Go web server** | Go web server, setup notes and personal website | [`Go-based-web-server-personal-blog`](https://github.com/NHK-DOT/Go-based-web-server-personal-blog), [`hjc78big.top`](https://hjc78big.top) |
 | **Rokid glasses development** | Kotlin/Android controller input tests and Rokid UI notes | [`rokid-deploy-record`](https://github.com/NHK-DOT/rokid-deploy-record) |
