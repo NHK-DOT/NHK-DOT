@@ -27,7 +27,7 @@
 
 ## Featured Work / 代表项目
 
-### 智慧社区视觉导航小车 / Smart Community Robot Car
+### 78Car:智慧社区视觉导航小车 / Smart Community Robot Car
 
 [`roscar-second`](https://github.com/NHK-DOT/roscar-second)
 
