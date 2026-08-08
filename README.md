@@ -68,11 +68,10 @@
 ![Dijkstra](https://img.shields.io/badge/Dijkstra-2563EB?style=for-the-badge)
 ![DWA](https://img.shields.io/badge/DWA-2563EB?style=for-the-badge)
 ![EKF / TF](https://img.shields.io/badge/EKF%20%2F%20TF-0F766E?style=for-the-badge)
-![ROS Action](https://img.shields.io/badge/ROS%20Action-22314E?style=for-the-badge&logo=ros&logoColor=white)
 ![PID / LQR](https://img.shields.io/badge/PID%20%2F%20LQR-7C3AED?style=for-the-badge)
 ![Trapezoidal Profile](https://img.shields.io/badge/Trapezoidal%20Profile-7C3AED?style=for-the-badge)
 
-**Vision, Inference, and Speech / 视觉、推理与语音**
+**Vision and Inference / 视觉与推理**
 
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![YOLO](https://img.shields.io/badge/YOLO-111111?style=for-the-badge)
@@ -81,6 +80,11 @@
 ![PaddleOCR](https://img.shields.io/badge/PaddleOCR-0062B0?style=for-the-badge)
 ![HSV](https://img.shields.io/badge/HSV%20Segmentation-B84A62?style=for-the-badge)
 ![AprilTag](https://img.shields.io/badge/AprilTag-2F80ED?style=for-the-badge)
+
+**Task Orchestration and Speech / 任务编排与语音**
+
+![FIFO FSM](https://img.shields.io/badge/FIFO%20FSM-7C3AED?style=for-the-badge)
+![ROS Action](https://img.shields.io/badge/ROS%20Action-22314E?style=for-the-badge&logo=ros&logoColor=white)
 ![Kokoro TTS](https://img.shields.io/badge/Kokoro%20TTS-6D28D9?style=for-the-badge)
 
 **Systems and Middleware / 系统与中间件**
