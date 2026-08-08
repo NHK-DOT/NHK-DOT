@@ -4,8 +4,8 @@
 
 # NHK-DOT / XDXD
 
-**Hohai University Automation 2024 | Robotics Full-Stack Builder**  
-**河海大学 2024 级自动化 | 机器人全栈方向**
+**Hohai University Automation 2024 | Robotics & Embedded Systems**<br>
+**河海大学 2024 级自动化 | 机器人、嵌入式与机械设计**
 
 [![Website](https://img.shields.io/badge/Website-hjc78big.top-0A66C2?style=flat-square&logo=google-chrome&logoColor=white)](https://hjc78big.top)
 [![QQ](https://img.shields.io/badge/QQ-2856463157-12B7F5?style=flat-square&logo=tencentqq&logoColor=white)](mailto:2856463157@qq.com)
@@ -19,29 +19,36 @@
 
 ## Resume / 个人简历
 
-- [中文简历 PDF](resume/Han_Juncheng_Resume.pdf) 
+- [中文简历 PDF](resume/Han_Juncheng_Resume.pdf)
 - **教育：** 河海大学人工智能与自动化学院，自动化本科，2024.09 至预计 2028.06。
-- **方向：** 机器人运动控制、硬件全栈、嵌入式软件、机械结构设计。
+- **方向：** 机器人运动控制、硬件开发、嵌入式软件、机械结构设计。
 - **当前经历：** 河海大学智泽实验室领队、RoboMaster 战队机械队员。
 - **竞赛：** 人工智能精英算法大赛国二、嵌入式竞赛国二、物联网杯省二、MCM/ICM H 奖、服务外包大赛国三，均担任项目队长。
 
 ## Featured Work / 代表项目
 
-### 78Car:智慧社区视觉导航小车 / Smart Community Robot Car
+### 78Car: 智慧社区视觉导航小车 / Smart Community Robot Car
 
 [`roscar-second`](https://github.com/NHK-DOT/roscar-second)
 
 - **CN:** 桌面项目为 ROS/catkin 工作区，包含视觉检测、相机采集、路径与航点导航、激光雷达代价地图、RViz/IMU 工具和多个 ONNX 检测模型。
 - **EN:** A ROS/catkin workspace covering visual detection, camera capture, waypoint navigation, lidar costmaps, RViz/IMU tools, and ONNX detection models.
 
-### 78arm: Delta arm for UAV / 无人机挂载 Delta 机械臂
+### 78Arm: Delta arm for UAV / 无人机挂载 Delta 机械臂
 
 [`delta_on_quadrotorUAV`](https://github.com/NHK-DOT/delta_on_quadrotorUAV)
 
-- **CN:** 一个面向无人机平台的轻量 Delta 机械臂项目，覆盖结构建模、3D 打印件迭代、LX 总线舵机映射、G-code 到舵机控制、手柄实机控制、AprilTag/IMU 感知和 Jetson 视觉部署。
-- **EN:** A lightweight Delta-arm project for UAV-mounted or UAV-tested manipulation, covering mechanical design, printed-part iteration, LX bus-servo mapping, G-code control, gamepad teleoperation, AprilTag/IMU sensing, and Jetson vision deployment.
+- **CN:** 为无人机设计的轻量 Delta 机械臂，包括结构设计和 3D 打印、LX 总线舵机控制、G-code 运动、手柄控制、AprilTag/IMU 定位以及 Jetson 视觉程序。
+- **EN:** A lightweight Delta arm for a UAV, with custom mechanical parts, LX bus-servo control, G-code motion, gamepad control, AprilTag/IMU positioning, and Jetson vision software.
 
-## Skills by Category / 分类技术栈
+### <img src="assets/pixel-matrix-studio.png" width="28" alt="78Matrix icon"> 78Matrix: Waveshare PixelMatrixStudio / 微雪像素矩阵
+
+[`Waveshare_PixelMatrixStudio`](https://github.com/NHK-DOT/Waveshare_PixelMatrixStudio)
+
+- **CN:** 使用浏览器或 Windows 工具编辑图片和 GIF，保存为 PMX 动画，再通过局域网 HTTPS 发给 ESP32；ESP32 将动画写入单独的 Flash 分区并从 RAM 播放。
+- **EN:** Browser and Windows tools for editing images and GIFs, saving PMX animations, sending them to an ESP32 over LAN HTTPS, and playing them on a 64x64 HUB75 matrix.
+
+## Skills / 技能
 
 **Programming / 编程语言**
 
@@ -109,14 +116,15 @@
 
 ## Project Index / 项目索引
 
-| Project | What it shows | Evidence |
+| Project | Contents | Link |
 | --- | --- | --- |
-| **78arm / UAV Delta arm** | Delta arm hardware, mechanical iteration, LX bus servos, G-code control, AprilTag/IMU sensing, Jetson-side vision experiments | [`delta_on_quadrotorUAV`](https://github.com/NHK-DOT/delta_on_quadrotorUAV) |
-| **Smart community robot car** | ROS/catkin workspace, visual detection, waypoint navigation, lidar costmaps, ONNX models and IMU tools | [`roscar-second`](https://github.com/NHK-DOT/roscar-second) |
-| **Go web server** | Go backend/web server experiment, deployment notes, future project documentation entry | [`Go-based-web-server-personal-blog`](https://github.com/NHK-DOT/Go-based-web-server-personal-blog), [`hjc78big.top`](https://hjc78big.top) |
-| **Rokid glasses development** | Kotlin/Android-style hardware input testing, gamepad input tester, wearable interaction notes | [`rokid-deploy-record`](https://github.com/NHK-DOT/rokid-deploy-record) remote verified; local repo: `Rokid_Glasses_开发资料` |
-| **Service outsourcing competition** | ROS/Gazebo competition material, package rename to `service_outsourcing`, deployment scripts and report materials | [`service_outsourcing`](https://github.com/NHK-DOT/service_outsourcing) remote verified; repo visibility may depend on GitHub access |
-| **Backlog projects** | PS5 adaptive triggers, Waveshare kits, mecanum-wheel chassis, robot-dog experiments, UAV tooling, embedded board notes | To be cleaned and split into public repositories |
+| **78Arm / UAV Delta arm** | Delta arm hardware, printed parts, LX bus servos, G-code control, AprilTag/IMU positioning and Jetson vision | [`delta_on_quadrotorUAV`](https://github.com/NHK-DOT/delta_on_quadrotorUAV) |
+| **78Car / Smart community robot car** | ROS/catkin code, visual detection, waypoint navigation, lidar costmaps, ONNX models and IMU tools | [`roscar-second`](https://github.com/NHK-DOT/roscar-second) |
+| **78Matrix / Waveshare PixelMatrixStudio** | ESP32 HUB75 firmware, browser and Windows editors, PMX animations, HTTPS upload and RAM playback | [`Waveshare_PixelMatrixStudio`](https://github.com/NHK-DOT/Waveshare_PixelMatrixStudio) |
+| **Go web server** | Go web server, setup notes and personal website | [`Go-based-web-server-personal-blog`](https://github.com/NHK-DOT/Go-based-web-server-personal-blog), [`hjc78big.top`](https://hjc78big.top) |
+| **Rokid glasses development** | Kotlin/Android controller input tests and Rokid UI notes | [`rokid-deploy-record`](https://github.com/NHK-DOT/rokid-deploy-record) |
+| **Service outsourcing competition** | ROS/Gazebo competition code, setup scripts and technical reports | [`service_outsourcing`](https://github.com/NHK-DOT/service_outsourcing) |
+| **Backlog projects** | PS5 adaptive triggers, mecanum-wheel chassis, robot-dog experiments, UAV tooling, embedded board notes | To be cleaned and split into public repositories |
 
 ## Lab & Team Experience / 实验室与团队经历
 
@@ -126,44 +134,39 @@
 
 ## Open-Source Roadmap / 开源计划
 
-- Split reusable tools from `78arm` into smaller public repositories.
-- Clean and publish Rokid, PS5 DualSense, Waveshare, mecanum chassis, robot-dog, UAV, and embedded-board notes when the code and README are ready.
-- Keep each repo traceable: hardware assumptions, runnable commands, safety notes, and failure records should stay with the code.
+- Split useful tools from `78Arm` into smaller public repositories.
+- Clean and publish Rokid, PS5 DualSense, mecanum chassis, robot-dog, UAV, and embedded-board notes when the code and README are ready.
+- Document the actual hardware setup, commands, safety notes, and problems encountered in each repository.
 
 ## Backlog to Open Source / 待整理开源方向
 
-These directions are real learning and development tracks, but the repositories still need cleanup before public release:
+Projects I am still organizing:
 
 - **PS5 DualSense adaptive triggers:** trigger force curves, controller I/O, interaction experiments.
-- **Waveshare kits:** board bring-up, display/sensor modules, embedded Linux and microcontroller examples.
 - **Mecanum-wheel car:** chassis kinematics, low-level motor control, ROS navigation experiments.
 - **Robot dog / quadruped:** legged robot structure, servo/control experiments, gait notes.
 - **UAV platform:** onboard compute, vision payloads, lightweight manipulator integration.
 - **Embedded boards:** ESP32/ESP32-S3, ESP8266, STM32 G/H series, STM32MP257, Raspberry Pi 4B.
 - **Android and Rokid glasses:** mobile control UI, wearable interaction prototypes, hardware input testing.
 
-## GitHub Signals / GitHub 公开贡献概览
-
-Current stars from GitHub repositories that are publicly visible through the API: **4**.
+## GitHub Activity / GitHub 动态
 
 <p align="center">
   <img src="profile-3d-contrib/profile-night-green.svg" alt="3D GitHub contribution profile">
 </p>
 
-**Language detail behind the public stats / 公开统计里的语言细分**
-
-- `delta_on_quadrotorUAV`: Python, C++, Shell, G-code, PowerShell, Batchfile.
-- `Go-based-web-server-personal-blog`: HTML, Go, Python.
-- Small slices that may be grouped as `Other` by the card usually come from scripts, build files, G-code, and platform helper files.
-
 ## For New Visitors / 给新访问者
 
 If you are interested in robotics, embedded control, machine vision, or real hardware debugging, start from:
 
-- [`delta_on_quadrotorUAV`](https://github.com/NHK-DOT/delta_on_quadrotorUAV): my current main robotics repository.
+- [`delta_on_quadrotorUAV`](https://github.com/NHK-DOT/delta_on_quadrotorUAV): 78Arm, my UAV Delta-arm project.
+- [`roscar-second`](https://github.com/NHK-DOT/roscar-second): 78Car, my ROS navigation car.
+- [`Waveshare_PixelMatrixStudio`](https://github.com/NHK-DOT/Waveshare_PixelMatrixStudio): 78Matrix, my ESP32 HUB75 display project.
 - [`hjc78big.top`](https://hjc78big.top): my personal site and future project notes.
 
 如果你关注机器人、嵌入式控制、机器视觉或实机调试，可以先看：
 
-- [`delta_on_quadrotorUAV`](https://github.com/NHK-DOT/delta_on_quadrotorUAV)：当前最主要的机器人项目仓库。
-- ###### [`hjc78big.top`](https://hjc78big.top)：个人站点，后续会整理更多项目记录。
+- [`delta_on_quadrotorUAV`](https://github.com/NHK-DOT/delta_on_quadrotorUAV)：78Arm，无人机 Delta 机械臂。
+- [`roscar-second`](https://github.com/NHK-DOT/roscar-second)：78Car，ROS 导航小车。
+- [`Waveshare_PixelMatrixStudio`](https://github.com/NHK-DOT/Waveshare_PixelMatrixStudio)：78Matrix，ESP32 HUB75 像素矩阵。
+- [`hjc78big.top`](https://hjc78big.top)：个人站点，后续会整理更多项目记录。
