@@ -45,8 +45,9 @@
 
 [`Waveshare_PixelMatrixStudio`](https://github.com/NHK-DOT/Waveshare_PixelMatrixStudio)
 
-- **CN:** 使用浏览器或 Windows 工具编辑图片和 GIF，保存为 PMX 动画，再通过局域网 HTTPS 发给 ESP32；ESP32 将动画写入单独的 Flash 分区并从 RAM 播放。
-- **EN:** Browser and Windows tools for editing images and GIFs, saving PMX animations, sending them to an ESP32 over LAN HTTPS, and playing them on a 64x64 HUB75 matrix.
+- **CN:** 使用浏览器或 Windows 工具编辑图片和 GIF，保存为项目自定义的 `Matrix PMX1` 动画文件（不是 MMD 的 PMX 模型），再通过局域网 HTTPS 发给 ESP32；ESP32 将动画写入单独的 Flash 分区并从 RAM 播放。
+- **EN:** Browser and Windows tools for editing images and GIFs, saving them as the project-specific `Matrix PMX1` content format (not MikuMikuDance's PMX model), sending them to an ESP32 over LAN HTTPS, and playing them on a 64x64 HUB75 matrix.
+- **状态 / Status:** 当前 RAM 缓存先按 26 帧预留，受经典 ESP32 的可用内存影响；后续会继续优化。这里的 26 是缓存帧数，不是固定的 26 FPS。
 
 ## Skills / 技能
 
