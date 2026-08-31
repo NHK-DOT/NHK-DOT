@@ -6,8 +6,12 @@ on:
       - main
     paths:
       - ".github/workflows/profile-3d.yml"
+  # The generated SVG includes the current date range, so a daily run creates
+  # a commit even when the contribution data has not meaningfully changed.
+  # Update every three days to keep the profile current without daily
+  # contribution-feed noise. (Cron day-of-month intervals reset at month end.)
   schedule:
-    - cron: "20 18 * * *"
+    - cron: "20 18 */3 * *"
   workflow_dispatch:
 
 jobs:
@@ -24,5 +28,5 @@ jobs:
       - name: Commit generated 3D contribution graph
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Generate 3D contribution graph"
+          commit_message: "chore: update 3D contribution graph (every 3 days)"
           file_pattern: profile-3d-contrib/*.svg
